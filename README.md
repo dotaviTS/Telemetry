@@ -2,34 +2,34 @@
 
 ## Plan
 1. Training
-2. Telemetry in Demo Apps
-5. Telemetry in IB
-3. Telemetry in Tauspace
-4. Telemetry in RAIN
+2. Telemetry in Demo Apps   (Local Machine)
+5. Telemetry in IB          (In a FTE - Dockerised Functional Test Envinroment)
+3. Telemetry in Tauspace    (Standardised Pipeline for Telemetry in Tauspace Apps )
+4. Telemetry in RAIN        (Telemetry setup and tested in Rain SIT environment)
 
 ## Pre-work 
-Docker -> Do the training on the Docker App quickly. Read through and understnad
+Docker -> Do the training on the Docker App quickly. Read through and understand the basics so that you can get the app running.
 
 ## Telemetry Project
 
-### Project Outcomes
+### Project - Definition of Done
 - Research and learning on Telemetry and OpenTelemetry. (including sample apps and demos)
 - Get basic telemetry system working on a mini app
 - Get end-to-end telemetry system working in  self-contained IB (in a ) using Opentelemetry: Phoenix, Ecto, cowboy.
 - Standardized architecture for setting up telemetry in a Tauspace Project
 - Create a phased deployment strategy for integrating telemetry into IB in production.
-- Notifications
+- Notifications system
 - Log management
+- Define coding standard for Tauspace
+- Define business objects method
+- AWS opensearch working with sample projects - feeding in telemetry from: Phoenix, Etco, Application, Traces
+- AWS open search (Kibana) - get tutorials working
+- On premise - Elastic search + Grafana or Kibanan
 
-Define coding standard for Tauspace
-Define business objects method
 
-AWS opensearch working with sample projects - feeding in telemetry from: Phoenix, Etco, Application, Traces
-
-AWS open search (Kibana) - get tutorials working
-On premise - Elastic search + Grafana or Kibanan
 
 ### Tutorial 1: Elixir Conf 2021 - Telemetry and Observability in Elixir - Kamil Kowalski:
+#### Context Setting - All team members
 https://www.youtube.com/watch?v=4OBtc_eIKIE
 https://github.com/kamilkowalski/opentelemetry-demo
 https://drive.google.com/file/d/1oNUli4gvUmP56UPTa3fvRELi9ahlM3fr/view
@@ -43,7 +43,9 @@ https://opentelemetry.io/docs/erlang/getting-started/
 https://opentelemetry.io/docs/demo/
 
 ### Tutorial 3: Elixir School Telemetry Tutorial
-Do Parts 1 - 4
+#### Getting telemetry working for Phoenix
+#### How woud we instrument phoenix to get telemetry working? all the way through to Opensearch
+#### Do Parts 1 - 4
 - https://elixirschool.com/blog/instrumenting-phoenix-with-telemetry-part-one
 - https://elixirschool.com/blog/instrumenting-phoenix-with-live-dashboard
 
@@ -53,6 +55,11 @@ https://elixirschool.com/en/lessons/advanced/telemetry/
 
 ### Tutorial 5:  Telemetry
 https://blog.miguelcoba.com/series/elixir-telemetry
+
+### OpenSearch
+
+https://opensearch.org/docs/latest/opensearch/install/docker/
+
 
 
 ## Introduction
@@ -201,6 +208,9 @@ OpenTelemetry provides a more comprehensive solution for observability. It offer
 2.  **Tracing is Required**: For microservices architectures or complex systems where tracing the flow of requests is important, OpenTelemetry is the better choice.
 3.  **Standardization**: If you aim for a standardized way of collecting metrics and traces that can be understood across different teams or even different companies, OpenTelemetry is more suitable.
 
+## OpenSearch
+
+![alt text](https://i.ibb.co/BP8CZCz/product-page-diagram-Amazon-Open-Search-Service-HIW-2x-f20d73b8aa110b5fb6ca1d9ebb439066a5e31ef5.png)
 
 ----------
 
