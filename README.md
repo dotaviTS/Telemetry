@@ -18,13 +18,16 @@ Docker -> Do the training on the Docker App quickly. Read through and understand
 - Get end-to-end telemetry system working in  self-contained IB (in a ) using Opentelemetry: Phoenix, Ecto, cowboy.
 - Standardized architecture for setting up telemetry in a Tauspace Project
 - Create a phased deployment strategy for integrating telemetry into IB in production.
-- Notifications system
+- Notifications
 - Log management
-- Define coding standard for Tauspace
-- Define business objects method
-- AWS opensearch working with sample projects - feeding in telemetry from: Phoenix, Etco, Application, Traces
-- AWS open search (Kibana) - get tutorials working
-- On premise - Elastic search + Grafana or Kibanan
+
+Define coding standard for Tauspace
+Define business objects method
+
+AWS opensearch working with sample projects - feeding in telemetry from: Phoenix, Etco, Application, Traces
+
+AWS open search (Kibana) - get tutorials working
+On premise - Elastic search + Grafana or Kibanan
 
 
 
